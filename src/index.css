@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+  background-color: rgb(198, 198, 201);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+    font-size:2rem;
+    color:rgb(133, 30, 4);
+}
+.button{
+    padding: 12px 20px;
+    background:#9b59b6;
+    color:white;
+    border:2px solid #ecf0f1;
+    outline:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.header{
+  padding:1rem;
+  text-align: center;
+  background-color: #e7e6e7;
+  color:rgb(132, 11, 148);
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.digitalclock{
+  font-family: 'Orbitron', sans-serif;
+}
+.card{
+  margin-bottom:1rem;
 }
